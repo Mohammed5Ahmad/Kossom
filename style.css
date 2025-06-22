@@ -1,0 +1,177 @@
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-image:url("bg.jpg");
+  background-size:cover ;
+  transition: 0.5s;
+}
+
+.sidebar.open {
+  left: 0;
+  z-index: 1;
+}
+
+/* القائمة نفسها */
+#bb {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#bb li a {
+  
+  margin-top: 70px;
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  align-content: center;
+  border-bottom: 3px solid 
+  white;
+  border-radius: 70px;
+}
+
+#bb li a:hover {
+transform: translateX(500px)
+;  background-color: lightyellow;
+transform: scale(1.1);
+  transition: 0.3s;
+  color:red;
+}
+.hamburger {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1001;
+}
+
+.hamburger span {
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
+}
+h1{
+  position: fixed;
+  display: flex;
+  color:white;
+  text-align: center;
+  font-size: 40px;
+  font-family:    Times, serif, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, serif;
+margin-top:70px;
+margin-left: 20px;
+}
+
+
+
+
+
+  
+.btn{
+  position: fixed;
+  top: 80%;
+  left: 47px;
+  
+}
+.btn button{
+    
+  background-color:  transparent;
+  color:white;
+  font-weight:bold;
+  border: 2px solid white;
+  border-radius:25px;
+  font-size: 25px;
+  padding:8px;
+position: fixed;
+left: 60px;
+background-color: seagreen;
+width: 200px;
+}
+.btn button:hover{
+  transform:scale(1.4);
+  transition: 0.3;
+}
+.games{
+  display: flex;
+
+width: 200px;
+height: 200px;
+  position: fixed;
+  top:30%;
+  gap: 10px;
+}
+.games img{
+ border-radius: 60px; 
+ opacity: 0.6;
+ border:solid ghostwhite 3px;
+
+}
+
+
+
+@keyframes slide{
+  100%{transform: translate(-100%);}
+  0%{
+    transform: translate(-700%);
+  }
+}
+
+
+
+.games {
+  display: flex;
+  animation: slide 10s linear infinite;
+}
+#sinup{
+  
+
+}
+.container{
+  background-image: url("gkk.jpg");
+  background-size: cover;
+}
+
+
+  body{
+    background-image: url("hp.jpg");
+  }
+  .main{
+    position: absolute;
+    
+  width: 180px;
+  height: 180px;
+  background-color: slategray;
+  
+  top: 40%;
+  border-radius: 30px;
+  }
+   .poto img{
+    width: 150px;
+    height: 150px;
+  position: fixed;
+  top:40%;
+  left: 6%;
+  border:2px blanchedalmond solid;
+  border-radius: 30px;
+  }
+  h2{
+    color:white;
+    position: fixed;
+    top:61.5%;
+    left: 33px;
+  }
+  
+
+
+
